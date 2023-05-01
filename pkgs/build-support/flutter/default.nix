@@ -20,6 +20,7 @@
 , gtk3
 , glib
 , pcre
+, pcre2
 , libepoxy
 , stdenvNoCC
 , cacert
@@ -166,6 +167,7 @@ let
     gtk3
     glib
     pcre
+    pcre2
     util-linux
     # also required by cmake, not sure if really needed or dep of all packages
     libselinux
