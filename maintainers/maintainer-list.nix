@@ -12704,6 +12704,15 @@
     githubId = 4579165;
     name = "Danny Bautista";
   };
+  pyrotelekinetic = {
+    email = "carter+nix@isons.org";
+    github = "pyrotelekinetic";
+    githubId = 29682759;
+    name = "Carter Ison";
+    keys = [{
+      fingerprint = "5963 78DB 25AA 608D 2743  D466 5D6A D9AE 71B3 F983";
+    }];
+  };
   pyxels = {
     email = "pyxels.dev@gmail.com";
     github = "Pyxels";
