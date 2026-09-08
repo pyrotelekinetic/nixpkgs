@@ -116,7 +116,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
     homepage = "https://stumpapp.dev/";
     description = "A free and open source comics, manga and digital book server with OPDS support";
     license = lib.licenses.mit;
-    platforms = [ "x86_64-linux" ];
+    platforms = lib.platforms.all;
     mainProgram = "stump_server";
     maintainers = with lib.maintainers; [
       jvanbruegge
